@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-lightBg dark:bg-darkBg transition-colors duration-300;
+}
+
+.glass {
+  @apply bg-white/10 dark:bg-white/5 backdrop-blur-xl shadow-xl rounded-2xl border border-white/10;
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg,#16a34a,#0ea5e9);
+}
